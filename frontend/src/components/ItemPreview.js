@@ -43,6 +43,7 @@ const ItemPreview = (props) => {
       <div className="card-body">
         
         <Link to={`/item/${item.slug}`} className="text-white">
+        
           <h3 className="card-title">{item.title}</h3>
           <p className="card-text crop-text-3">{item.description}</p>
         </Link>
