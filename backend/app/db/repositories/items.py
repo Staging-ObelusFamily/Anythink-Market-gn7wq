@@ -333,3 +333,5 @@ class ItemsRepository(BaseRepository):  # noqa: WPS214
             self.connection,
             [{SLUG_ALIAS: slug, "tag": tag} for tag in tags],
         )
+
+        
